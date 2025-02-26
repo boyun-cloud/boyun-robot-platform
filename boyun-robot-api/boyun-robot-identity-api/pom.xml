@@ -4,25 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.boyun.cloud</groupId>
-        <artifactId>boyun-robot-platform</artifactId>
+        <artifactId>boyun-robot-api</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.boyun.cloud</groupId>
-    <artifactId>boyun-robot-api</artifactId>
+    <artifactId>boyun-robot-identity-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>boyun-robot-api</name>
+    <name>boyun-robot-identity-api</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>pom</packaging>
-
-
-    <modules>
-        <module>boyun-robot-admin-api</module>
-        <module>boyun-robot-applice-api</module>
-        <module>boyun-robot-business-api</module>
-        <module>boyun-robot-customer-api</module>
-        <module>boyun-robot-identity-api</module>
-        <module>boyun-robot-support-api</module>
-    </modules>
+    <packaging>jar</packaging>
 
     <build>
         <plugins>
