@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.boyun.cloud</groupId>
-        <artifactId>boyun-robot-platform</artifactId>
+        <artifactId>boyun-robot-web</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.boyun.cloud</groupId>
-    <artifactId>boyun-robot-sphere</artifactId>
+    <artifactId>boyun-robot-console-web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>boyun-robot-sphere</name>
+    <name>boyun-robot-console-web</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>pom</packaging>
-
-
-    <modules>
-        <module>boyun-robot-gateway-sphere</module>
-        <module>boyun-robot-passport-sphere</module>
-    </modules>
+    <packaging>jar</packaging>
 
     <build>
         <plugins>

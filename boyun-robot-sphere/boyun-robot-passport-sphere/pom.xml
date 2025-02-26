@@ -4,23 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.boyun.cloud</groupId>
-        <artifactId>boyun-robot-platform</artifactId>
+        <artifactId>boyun-robot-sphere</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.boyun.cloud</groupId>
-    <artifactId>boyun-robot-web</artifactId>
+    <artifactId>boyun-robot-passport-sphere</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>boyun-robot-web</name>
+    <name>boyun-robot-passport-sphere</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>pom</packaging>
-
-
-    <modules>
-        <!--BoyunCloud微服务平台后台管控平台-->
-        <module>boyun-robot-console-web</module>
-        <!--BoyunCloud微服务平台开放接口平台-->
-        <module>boyun-robot-openapi-web</module>
-    </modules>
+    <packaging>jar</packaging>
 
     <build>
         <plugins>
