@@ -1,6 +1,6 @@
-package com.boyun.cloud.console;
+package com.boyun.cloud.common.openapi;
 
-import com.boyun.cloud.autoconfigure.console.EnableConsoleWeb;
+
 
 
 /**
@@ -13,8 +13,8 @@ import com.boyun.cloud.autoconfigure.console.EnableConsoleWeb;
  * @version: 1.0.0
  * @copyright: Copyright © 2018-2024 BoyunCloud Systems Incorporated. All rights reserved.
  */
-@EnableConsoleWeb
-public class ConsoleWebApplication {
+
+public class OpenapiWebApplication {
 
     public static void main(String[] args) {
 

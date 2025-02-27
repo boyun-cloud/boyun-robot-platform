@@ -8,4 +8,4 @@
  * @version:
  * @copyright: Copyright © 2018-2025  Systems Incorporated. All rights reserved.
  */
-package com.boyun.cloud.console.web.infars;
+package com.boyun.cloud.common.openapi.web.infars;

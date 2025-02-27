@@ -1,4 +1,4 @@
-package com.boyun.cloud.autoconfigure.openapi;
+package com.boyun.cloud.common.autoconfigure.openapi;
 
 import java.lang.annotation.*;
 

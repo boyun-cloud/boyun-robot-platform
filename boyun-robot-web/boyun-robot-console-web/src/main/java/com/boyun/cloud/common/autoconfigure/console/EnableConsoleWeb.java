@@ -1,4 +1,4 @@
-package com.boyun.cloud.autoconfigure.console;
+package com.boyun.cloud.common.autoconfigure.console;
 
 
 import java.lang.annotation.*;
